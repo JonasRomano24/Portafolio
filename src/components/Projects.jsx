@@ -12,11 +12,11 @@ function Projects() {
                 <div className="text-center mb-20">
                     <h2 className="text-4xl font-bold text-cyan-400 mb-4">
                         Mis Proyectos
-                    </h2>
+                    </h2><br />
 
                     <p className="text-gray-400">
                         Algunos de los proyectos que he desarrollado.
-                    </p>
+                    </p><br />
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-10 items-stretch">

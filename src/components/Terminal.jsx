@@ -75,12 +75,12 @@ function Terminal() {
 
                     <h2 className="text-4xl md:text-5xl font-bold text-cyan-400 mb-4">
                         Terminal de Desarrollador
-                    </h2>
+                    </h2><br />
 
                     <p className="text-gray-400 max-w-2xl">
                         Explora información sobre mí utilizando comandos
                         como si estuvieras en una terminal real.
-                    </p>
+                    </p><br />
 
                 </div>
 

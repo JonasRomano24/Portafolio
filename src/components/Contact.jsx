@@ -11,11 +11,11 @@ function Contact() {
                 <div className="text-center mb-12">
                     <h2 className="text-4xl font-bold text-cyan-400 mb-4">
                         Contacto
-                    </h2>
+                    </h2><br />
 
                     <p className="text-gray-400">
                         ¿Tenés una propuesta, proyecto o consulta? Podés contactarme por cualquiera de estos medios.
-                    </p>
+                    </p><br />
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-8">
