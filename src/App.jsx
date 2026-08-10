@@ -10,7 +10,7 @@ import Background from "./components/Background";
 import ParticlesBackground from "./components/ParticlesBackground";
 import Certificates from "./components/Certificates";
 import Experience from "./components/Experience";
-import BackgroundMusic from "./BackgroundMusic";
+import BackgroundMusic from "./components/BackgroundMusic";
 
 function App() {
   return (
