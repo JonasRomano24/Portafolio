@@ -14,7 +14,7 @@ import Experience from "./components/Experience";
 function App() {
   return (
 
-    <div className="bg-[#0a0a0a] text-white">
+    <div className="relative isolate bg-[#0a0a0a] text-white">
       <Background />
       <ParticlesBackground />
       <NavBar />
