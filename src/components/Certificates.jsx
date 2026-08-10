@@ -1,54 +1,56 @@
 import { motion } from "framer-motion";
 
+const BASE = import.meta.env.BASE_URL; // resuelve a "/Portafolio/" en producción
+
 const certificates = [
     {
         id: 1,
         title: ".NET",
         issuer: "Coursera",
-        image: "/certificates/Net Coursera.png",
-        file: "/certificates/.Net Coursera.pdf",
+        image: `${BASE}certificates/Net Coursera.png`,
+        file: `${BASE}certificates/.Net Coursera.pdf`,
     },
     {
         id: 2,
         title: "Asistencia Técnica",
         issuer: "Coursera",
-        image: "/certificates/Asistencia tecnica Coursera.png",
-        file: "/certificates/Asistencia tecnica Coursera.pdf",
+        image: `${BASE}certificates/Asistencia tecnica Coursera.png`,
+        file: `${BASE}certificates/Asistencia tecnica Coursera.pdf`,
     },
     {
         id: 3,
         title: "Consultas Básicas SQL",
         issuer: "Coursera",
-        image: "/certificates/Consultas Basicas SQL.png",
-        file: "/certificates/Consultas Basicas SQL.png",
+        image: `${BASE}certificates/Consultas Basicas SQL.png`,
+        file: `${BASE}certificates/Consultas Basicas SQL.png`,
     },
     {
         id: 4,
         title: "Desarrollo",
         issuer: "JAP",
-        image: "/certificates/Desarrollo JAP.jpg",
-        file: "/certificates/Desarrollo JAP.jpg",
+        image: `${BASE}certificates/Desarrollo JAP.jpg`,
+        file: `${BASE}certificates/Desarrollo JAP.jpg`,
     },
     {
         id: 5,
         title: "Desarrollo Web",
         issuer: "Coderhouse",
-        image: "/certificates/Desarrollo Web Coder.png",
-        file: "/certificates/Desarrollo Web Coder.png",
+        image: `${BASE}certificates/Desarrollo Web Coder.png`,
+        file: `${BASE}certificates/Desarrollo Web Coder.png`,
     },
     {
         id: 6,
         title: "Java",
         issuer: "Diploma",
-        image: "/certificates/Java Diploma.png",
-        file: "/certificates/Java Diploma.pdf",
+        image: `${BASE}certificates/Java Diploma.png`,
+        file: `${BASE}certificates/Java Diploma.pdf`,
     },
     {
         id: 7,
         title: "React JS",
         issuer: "Diploma",
-        image: "/certificates/React.png",
-        file: "/certificates/React.pdf",
+        image: `${BASE}certificates/React.png`,
+        file: `${BASE}certificates/React.pdf`,
     },
 ];
 
