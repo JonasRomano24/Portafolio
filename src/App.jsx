@@ -10,12 +10,20 @@ import Background from "./components/Background";
 import ParticlesBackground from "./components/ParticlesBackground";
 import Certificates from "./components/Certificates";
 import Experience from "./components/Experience";
+import { useRef } from "react";
 import BackgroundMusic from "./components/BackgroundMusic";
+import WelcomeOverlay from "./components/WelcomeOverlay";
 
 function App() {
+  const musicRef = useRef(null);
+
+  const handleEnter = () => {
+    musicRef.current?.start();
+  };
   return (
 
     <div className="relative isolate bg-[#0a0a0a] text-white">
+      <WelcomeOverlay onEnter={handleEnter} name="Jonas Romano" />
       <Background />
       <ParticlesBackground />
       <NavBar />
@@ -28,7 +36,7 @@ function App() {
       <Terminal />
       <Contact />
       <Footer />
-      <BackgroundMusic src="/audio/musica-clasica.mp3" />
+      <BackgroundMusic ref={musicRef} />
     </div>
   );
 }
