@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Terminal from "./components/Terminal";
 import Background from "./components/Background";
+import ParticlesBackground from "./components/ParticlesBackground";
 import Certificates from "./components/Certificates";
 import Experience from "./components/Experience";
 
@@ -15,6 +16,7 @@ function App() {
 
     <div className="bg-[#0a0a0a] text-white">
       <Background />
+      <ParticlesBackground />
       <NavBar />
       <Hero />
       <About />
