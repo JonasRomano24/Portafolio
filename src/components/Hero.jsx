@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 
+const BASE = import.meta.env.BASE_URL;
+
 function Hero() {
     return (
         <section className="min-h-screen flex items-center justify-center px-6">
@@ -97,7 +99,7 @@ function Hero() {
 
                     <div>
                         <h3 className="text-3xl font-bold text-cyan-400">
-                            3+
+                            9+
                         </h3>
                         <p className="text-gray-400 text-sm">
                             Años aprendiendo
@@ -120,7 +122,7 @@ function Hero() {
                     </a>
 
                     <a
-                        href="/Jonas%20Romano%20CV.pdf"
+                        href={`${BASE}Jonas-Romano-CV.pdf`}
                         download
                         className="border border-cyan-500 px-6 py-3 rounded-lg hover:bg-cyan-500 hover:text-slate-950 transition"
                     >

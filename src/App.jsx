@@ -12,7 +12,7 @@ import Experience from "./components/Experience";
 
 function App() {
   return (
-    
+
     <div className="bg-[#0a0a0a] text-white">
       <Background />
       <NavBar />
@@ -20,11 +20,8 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <div className="h-[30vh]"></div>
       <Certificates />
-      <div className="h-[30vh]"></div>
       <Experience />
-      <div className="h-[30vh]"></div>
       <Terminal />
       <Contact />
       <Footer />
