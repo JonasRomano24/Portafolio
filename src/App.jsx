@@ -10,6 +10,7 @@ import Background from "./components/Background";
 import ParticlesBackground from "./components/ParticlesBackground";
 import Certificates from "./components/Certificates";
 import Experience from "./components/Experience";
+import BackgroundMusic from "./BackgroundMusic";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Terminal />
       <Contact />
       <Footer />
+      <BackgroundMusic src="/audio/musica-clasica.mp3" />
     </div>
   );
 }
