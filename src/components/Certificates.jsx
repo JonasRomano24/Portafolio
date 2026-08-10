@@ -7,7 +7,7 @@ const certificates = [
         id: 1,
         title: ".NET",
         issuer: "Coursera",
-        image: `${BASE}certificates/Net Coursera.png`,
+        image: `${BASE}certificates/.Net Coursera.png`,
         file: `${BASE}certificates/.Net Coursera.pdf`,
     },
     {
@@ -42,7 +42,7 @@ const certificates = [
         id: 6,
         title: "Java",
         issuer: "Diploma",
-        image: `${BASE}certificates/Java Diploma.png`,
+        image: `${BASE}certificates/Java Diploma (1).png`,
         file: `${BASE}certificates/Java Diploma.pdf`,
     },
     {
